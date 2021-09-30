@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    padding: 2rem;
+}
+
+input{
+    padding: 0.5rem;
+    margin-top: 10px;
+}
