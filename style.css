@@ -1,12 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #A5B4FC;
+}
 main{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     margin: auto;
     padding: 2rem;
+}
+
+h1{
+    padding:40px 0px;
+    color: #374151;
 }
 
 input{
     padding: 0.5rem;
     margin-top: 10px;
+    height: 5vh;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+button{
+    width:250px;
+    padding: 10px 15px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #4F46E5;
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+
+#output-msg{
+    font-size: 1.7rem;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    color: #3730A3;
+    font-weight: 600;
 }
